@@ -23,16 +23,19 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
               <EmptySpace pref="596" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <Component id="btnActivar" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="557" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Component id="lblMensaje" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="573" max="-2" attributes="0"/>
+                  <Component id="lblTexto" min="-2" pref="91" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="btnActivar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="557" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="lblMensaje" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="573" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
               </Group>
           </Group>
@@ -45,7 +48,9 @@
               <Component id="btnActivar" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
               <Component id="lblMensaje" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="548" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+              <Component id="lblTexto" min="-2" pref="48" max="-2" attributes="0"/>
+              <EmptySpace pref="446" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -60,6 +65,11 @@
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="lblMensaje">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTexto">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel1"/>
       </Properties>

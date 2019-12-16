@@ -29,6 +29,7 @@ public class semana1 extends javax.swing.JFrame {
 
         btnActivar = new javax.swing.JButton();
         lblMensaje = new javax.swing.JLabel();
+        lblTexto = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -41,19 +42,23 @@ public class semana1 extends javax.swing.JFrame {
 
         lblMensaje.setText("jLabel1");
 
+        lblTexto.setText("jLabel1");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(596, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(btnActivar)
-                        .addGap(557, 557, 557))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(lblMensaje)
-                        .addGap(573, 573, 573))))
+                    .addComponent(lblTexto, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                            .addComponent(btnActivar)
+                            .addGap(557, 557, 557))
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                            .addComponent(lblMensaje)
+                            .addGap(573, 573, 573)))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -62,14 +67,17 @@ public class semana1 extends javax.swing.JFrame {
                 .addComponent(btnActivar)
                 .addGap(77, 77, 77)
                 .addComponent(lblMensaje)
-                .addContainerGap(548, Short.MAX_VALUE))
+                .addGap(54, 54, 54)
+                .addComponent(lblTexto, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(446, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnActivarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnActivarActionPerformed
-      lblMensaje.setText("Hola");
+      lblMensaje.setText("Quemas mijin :v");
+      lblTexto.setText("nada aqui mijin");
     }//GEN-LAST:event_btnActivarActionPerformed
 
     /**
@@ -110,5 +118,6 @@ public class semana1 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnActivar;
     private javax.swing.JLabel lblMensaje;
+    private javax.swing.JLabel lblTexto;
     // End of variables declaration//GEN-END:variables
 }
