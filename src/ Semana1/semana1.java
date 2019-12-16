@@ -78,6 +78,7 @@ public class semana1 extends javax.swing.JFrame {
     private void btnActivarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnActivarActionPerformed
       lblMensaje.setText("Quemas mijin :v");
       lblTexto.setText("nada aqui mijin");
+        lblmensaje.setText(" vamos a las bielas");
     }//GEN-LAST:event_btnActivarActionPerformed
 
     /**
